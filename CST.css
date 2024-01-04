@@ -60,7 +60,7 @@ ul > li > a {
 }
 
 li > a:hover {
-  border-bottom: 2px solid #64646488;
+  border-bottom: 2px solid #b59b46;
 }
 
 #main{
@@ -475,7 +475,7 @@ h4 {
 #quote-1 {
   grid-column: 1/5;
   grid-row: 1/2;
-  background-image: radial-gradient(silver, #83848577 50%, silver);
+  background-image: radial-gradient(silver, rgb(44, 107, 107) 50%, silver);
 }
 
 @media (max-width:1100px) {
@@ -488,7 +488,7 @@ h4 {
 #quote-2 {
   grid-column: 1/2;
   grid-row: 2/4;
-  background-image: radial-gradient(silver, #83848577 50%, silver);
+  background-image: radial-gradient(silver, rgb(107, 33, 33) 50%, silver);
 }
 
 @media (max-width:1100px) {
@@ -501,7 +501,7 @@ h4 {
 #quote-3 {
   grid-column: 2/4;
   grid-row: 2/3;
-  background-image: radial-gradient(silver, #83848577 50%, silver);
+  background-image: radial-gradient(silver, rgb(37, 37, 104) 50%, silver);
 }
 
 @media (max-width:1100px) {
@@ -513,7 +513,7 @@ h4 {
 #quote-4 {
   grid-column: 2/4;
   grid-row: 3/4;
-  background-image: radial-gradient(silver, #83848577 50%, silver);
+  background-image: radial-gradient(silver, rgb(30, 92, 30) 50%, silver);
 }
 
 @media (max-width:1100px) {
@@ -526,7 +526,7 @@ h4 {
 #quote-5 {
   grid-column: 4/5;
   grid-row: 2/4;
-  background-image: radial-gradient(silver, #83848577 50%, silver)
+  background-image: radial-gradient(silver, rgb(124, 94, 39) 50%, silver)
 }
 
 @media (max-width:1100px) {
@@ -539,7 +539,7 @@ h4 {
 #quote-6 {
   grid-column: 1/5;
   grid-row:4/5;
-  background-image: radial-gradient(silver,  #83848577 50%, silver);
+  background-image: radial-gradient(silver,  rgb(95, 38, 95) 50%, silver);
 }
 
 @media (max-width:1100px) {
@@ -619,6 +619,7 @@ border-radius: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: end;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -638,11 +639,12 @@ border-radius: 10px;
   text-decoration-line: none;
   background-color: #646464;
   box-shadow: 0 0 5px 5px #b59b46;
+  transition: width 0.5s, height 0.5s;
 }
 
 .footer-link:hover {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   box-shadow: 0 0 10px 10px #b59b46;
 }
 
